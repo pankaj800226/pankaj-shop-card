@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-bar h4{
+    position: absolute;
+left: 83px;
+top: 5vh;
+font-size: 20px;
+letter-spacing: 2px;
+cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+}
+.menu-right{
+    text-align: right;
+    position: sticky;
+    top: 0;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+}
+ul li a:hover{
+  background-color: #1d4051;
+  color: #fff;
+}
+ul li a{
+    transition: 0.5s ease;
+}
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+@media only screen and (max-width:700px){
+    span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    
+}
+
+.pankaj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box img{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    transition: 400ms;
+    display: grid;
+}
+.box img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+.box a{
+    position: relative;
+left: 21vh;
+background: darkmagenta;
+padding: 11px 49px;
+border-radius: 7px;
+color: white;
+font-family: cursive;
+top: 5px;
+text-decoration: none;
+letter-spacing: 1px;
+}
+.box p{
+  
+    font-size: 22px;
+padding: 5px 121px;
+line-height: 40px;
+font-family: cursive;
+line-height: 60px;
+}
+.box a:hover{
+   background-color: #1d4051;
+   color: #fff;
+}
+.box a{
+    transition: 0.7s ease;
+}
+.box p a{
+    position: relative;
+top: 20px;
+padding: 4px;
+left: 6vh;
+background: #00838f;
+letter-spacing: 1px;
+}
+footer{
+    background-color:#00838f !important;
+color: #fff;
+margin: 15px;
+height: 110px;
+width: 80rem;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:'Courier New', Courier, monospace;
+}
+footer input{
+    margin: 5px;
+    padding: 10px 125px;
+}
+.sign-in a{
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+}
+.sign-in a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.copyright p{
+    position: absolute;
+    right: 14vh;
+font-size: 22px;
+}
+.sign-in{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+@media only screen and (max-width:500px){
+    footer{
+         display: block;
+    }
+   
+}
+@media only screen and (max-width:600px){
+    .sign-in p{
+        display: block;
+        
+    }
+    .sign-in a{
+        display: block;
+        padding: 2px;
+    }
+
+}
